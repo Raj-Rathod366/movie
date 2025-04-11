@@ -6,7 +6,7 @@ function Context(props) {
     
   const [title , setTitle] = useState('')
   const [movie, setMovie] = useState([])
-  const API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMTQ0MmJkYTZlMTgwMmY2MjQ3YTk0ZDM5ZGNkMWFjMCIsIm5iZiI6MTc0MjIxMTM0OS42MjYsInN1YiI6IjY3ZDgwOTE1MTkxODY4YzU0ZmYxY2RmZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.M-fg6Qs452y_-fgwaVCd3T789YqrPDAzSTWDdhIYC1E"
+  const API_KEY = "API_KEY"
   
   const handleSearchMovie = (data)=>{
     setMovie(data)
